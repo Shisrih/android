@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="Animals"
-        android:textSize="35dp"
-        />
+        android:textSize="35dp" />
 
 
     <!--Creating a radio group-->

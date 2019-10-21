@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 
-public class Main3Activity extends AppCompatActivity
+public class Radiogroup extends AppCompatActivity
 implements View.OnClickListener{
  RadioButton radiobutton1,radiobutton2,radiobutton3,radiobutton4;
  private ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_radiogroup);
 
         radiobutton1 = findViewById(R.id.rad1);
         radiobutton2 = findViewById(R.id.rad2);
